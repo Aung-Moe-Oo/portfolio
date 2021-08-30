@@ -1,0 +1,137 @@
+/*-- Body Reset --*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif !important;
+}
+/* preloader */
+#loading {
+  width: 100%;
+  height: 100vh;
+  background: #fff url("../img/preloader.gif") no-repeat center;
+  z-index: 9999;
+}
+/*-- Landing --*/
+.landing {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, #00cec9, #6c5ce7);
+}
+.landing img {
+  border-radius: 50%;
+  width: 18rem;
+  height: auto;
+}
+.main-btn:link,
+.main-btn:visited {
+  font-size: 2rem;
+  color: #fff;
+  padding: 8px 15px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  transition: background-color 0.5s ease-in;
+}
+.main-btn:hover,
+.main-btn:active {
+  color: #4d7ddf;
+  text-decoration: none;
+  background-color: #fff;
+}
+/*-- Heading and Icons --*/
+h4 {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 100;
+  padding-top: 7rem;
+  letter-spacing: 0.1rem;
+  text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0, 1);
+}
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 1.8rem 0;
+  letter-spacing: 0.15rem;
+  text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0, 1);
+}
+.home {
+  padding-bottom: 7rem;
+}
+.fa-stack .fa-2x {
+  font-size: 2.3rem;
+}
+.fa-stack-2x {
+  opacity: 0.15;
+}
+.fa-stack-1x {
+  opacity: 0.7;
+}
+.fa-globe-asia {
+  opacity: 1;
+  transform: scale(1.35);
+}
+
+/*-- Nav bar --*/
+.navbar {
+  background-image: linear-gradient(90deg, #00cec9, #6c5ce7);
+  padding: 0.3rem 0 0.6rem;
+  text-transform: uppercase;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0, 5);
+  letter-spacing: 0.12rem;
+  margin-right: 0.8rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+.nav-link:hover {
+  border-bottom: 2px solid #fff;
+}
+/*-- Heading --*/
+.fa-asterisk {
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+}
+.h3 {
+  font-weight: 300;
+}
+.w-100 {
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+/*-- fixed background --*/
+.fixed-background {
+  width: 100%;
+  height: 16rem;
+  background-image: url("../img/bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.8);
+  background-color: #00cec9;
+  background-blend-mode: luminosity;
+}
+
+/*-- Contact --*/
+.contact {
+  /* background-image: linear-gradient(90deg, #1da1f2, #981ceb); */
+  background-image: linear-gradient(90deg, #00cec9, #6c5ce7);
+}
+input,
+textarea {
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+button {
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}

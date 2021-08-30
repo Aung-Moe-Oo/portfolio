@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css -->    
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/query.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+</head>
+<body onload="loadfun()">
+    <!-- preloader -->    
+    <div id="loading"></div>
+    <!-- Landing -->
+    <div class="landing py-5" id="landing">
+        <div class="row">
+            <div class="col-lg-5 pt-lg-3">
+                <img src="resources/img/photo1.png" alt="photo" class="animate__animated animate__fadeInLeft">               
+            </div>
+            <div class="col-lg-7 text-center mt-lg-5 animate__animated animate__fadeInRight">            
+                <h1>I'm a freelancer <br> and front-end web developer</h1>
+                <a href="#contact" class="main-btn">Hire Me</a>
+            </div>
+        </div>        
+    </div>
+    <!-- Nav bar -->
+    <div class="navbar navbar-light navbar-expand-lg sticky-top">
+        <div class="container px-3">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#landing" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">contact me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row py-0 py-md-3 py-lg-5">
+                <div class="col-12 text-center text-uppercase mt-5">                
+                    <h1 class="text-dark pb-3">
+                        <i class="fa fa-asterisk"></i>
+                        About Me
+                        <i class="fa fa-asterisk"></i>
+                    </h1>
+                    <div class="border-top border-dark w-50 mx-auto"></div>
+                </div>
+            </div>
+        </div>
+        <!-- collection -->
+        <div class="container">
+            <div class="row pt-3 pb-lg-1 pb-sm-0 px-4">
+                <div class="col-lg-6 mb-3 my-lg-auto .wp-up">
+                    <h3 class="text-dark mb-3">I'm Aung Moe Oo</h3>
+                    <p>
+                        I'm a UX/UI Designer based in Myanmar. I have over 2+ years of experience and here to help you to achieve your goals and solve your tasks.
+                    </p>
+                    <a href="#contact" class="btn btn-outline-dark btn-md">Contact Me</a>
+                </div>
+                <div class="col-lg-6 text-center pb-sm-0 pt-sm-2">
+                    <img src="resources/img/working.svg" alt="working" class="w-75 h-75">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div id="project">
+        <!-- heading -->
+        <div class="container">
+            <div class="row py-0 py-md-1 py-lg-5">
+                <div class="col-12 text-center text-uppercase mt-5">                
+                    <h1 class="text-dark pb-3">
+                        <i class="fa fa-asterisk"></i>
+                        My Projects
+                        <i class="fa fa-asterisk"></i>
+                    </h1>
+                    <div class="border-top border-dark w-50 mx-auto"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-4">
+            <div class="row pt-3 pb-5 text-center">
+                <div class="col-lg-4 p-4">
+                    <h3 class="my-4">Web Design</h3>
+                    <img src="resources/img/pj-1.png" alt="" class="w-100 rounded">
+                    <p class="lead pt-3">
+                        This is my project.
+                    </p>
+                    <a href="https://aung-moe-oo.github.io/new-coffee/coffee-shop" target="_blank" class="btn btn-outline-dark btn-md">Explore</a>
+                </div>
+                <div class="col-lg-4 p-4">
+                    <h3 class="my-4">Web Design</h3>
+                    <img src="resources/img/pj-2.png" alt="" class="w-100 rounded">
+                    <p class="lead pt-3">
+                        This is my project.
+                    </p>
+                    <a href="https://aung-moe-oo.github.io/construction" target="_blank" class="btn btn-outline-dark btn-md">Explore</a>
+                </div>
+                <div class="col-lg-4 p-4">
+                    <h3 class="my-4">Design</h3>
+                    <img src="resources/img/pj-2.png" alt="" class="w-100 rounded">
+                    <p class="lead pt-3">
+                        This is my project.
+                    </p>
+                    <a href="#" class="btn btn-outline-dark btn-md">Explore</a>
+                </div>            
+            </div>
+        </div>
+    </div>    
+    <!-- fixed-background -->
+    <div class="fixed-background"></div>
+    <!-- contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-uppercase mt-5">                
+                    <h1 class="text-white pb-3">
+                        <i class="fa fa-asterisk"></i>
+                        Contact Me
+                        <i class="fa fa-asterisk"></i>
+                    </h1>
+                    <div class="border-top border-white w-50 mx-auto"></div>
+                </div>
+            </div>
+        </div>
+        <!-- contact box -->
+        <div class="container pb-1">
+            <div class="row pt-3 pb-5 px-lg-4">
+                <div class="col-12 my-lg-5 my-lg-auto text-center">
+                    <form action="#" method="POST" class="contact-form">
+                        <div>                                       
+                            <input class="col-7 col-sm-8 mt-2" type="text" name="name" id="name" placeholder="Your Name" required>                      
+                        </div>
+                        <div>                                          
+                            <input class="col-7 col-sm-8 mt-2" type="email" name="email" id="email" placeholder="Your Email Address" required>                        
+                        </div>
+                        <div>                     
+                            <textarea  class="col-7 col-sm-8 mt-2" name="" id="" cols="40" rows="3" placeholder="Your Messages"></textarea>                        
+                        </div>                    
+                        <button type="submit" class="btn btn-outline-dark btn-md mt-2">
+                            Get In Touch
+                        </button>                        
+                    </form>
+                </div>
+            </div> 
+        </div>
+        <p class="text-center text-white pb-lg-2">Designed By Aung Moe Oo.</p>
+    </div>
+    <!-- waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <!-- jQuery -->
+    <script src="vendor/js/jQuery.js"></script>
+    <!-- Popper js -->
+    <script src="vendor/js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="vendor/js/bootstrap.js"></script>
+    <!-- font awesome -->
+    <script src="vendor/js/all.min.js"></script>
+    
+    <script src="resources/js/script.js"></script>
+</body>
+</html>

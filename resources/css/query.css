@@ -1,0 +1,108 @@
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+  h1 {
+    font-size: 2.6rem !important;
+    letter-spacing: 0.1rem;
+  }
+  .fixed-background {
+    width: 100%;
+    height: 12rem;
+  }
+}
+
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+  .landing img {
+    border-radius: 50%;
+    width: 14rem;
+    height: auto;
+  }
+  h1 {
+    font-size: 2rem !important;
+    letter-spacing: 0.1rem;
+    padding: 1.8rem 1.5rem;
+  }
+  .fixed-background {
+    width: 100%;
+    height: 10rem;
+  }
+}
+
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+  .landing img {
+    border-radius: 50%;
+    width: 14rem;
+    height: auto;
+  }
+  .main-btn:link,
+  .main-btn:visited {
+    font-size: 1.8rem;
+    padding: 8px 15px;
+  }
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  .fa-asterisk {
+    font-size: 1.2rem;
+    padding-bottom: 0.3rem;
+  }
+  h3 {
+    font-size: 1.4rem !important;
+  }
+  .fixed-background {
+    width: 100%;
+    height: 10rem;
+  }
+  input,
+  textarea {
+    padding: 0.6rem;
+  }
+}
+/* Devices under 576px */
+@media (max-width: 576px) {
+  .landing img {
+    width: 10rem;
+    height: auto;
+  }
+  .main-btn:link,
+  .main-btn:visited {
+    font-size: 1rem;
+    padding: 8px 15px;
+    letter-spacing: 0;
+  }
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  h3 {
+    font-size: 1.3rem !important;
+  }
+  .fixed-background {
+    width: 100%;
+    height: 10rem;
+  }
+  input,
+  textarea {
+    padding: 0.3rem;
+  }
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
