@@ -4,8 +4,47 @@ function loadfun(){
     load.style.display = 'none';
 }
 
-// smooth scroll
-$('a[href*="#"]')
+$(document).ready(function(){
+  // scroll reveal
+  window.sr = ScrollReveal();      
+  sr.reveal('.scroll-left',{
+      origin:'left',
+      duration: 1000,
+      distance: '200px',
+  });
+
+  sr.reveal('.scroll-right',{
+      origin:'right',
+      duration: 2000,
+      distance: '200px',
+  });
+
+  sr.reveal('.scroll-top',{
+    origin:'bottom',
+    duration: 2000,
+    distance: '200px',
+  });
+
+  sr.reveal('.scroll-bottom',{
+    origin:'top',
+    duration: 2000,
+    distance: '50px',
+  });
+  // progress skill bar
+  const progressBars = document.querySelectorAll(".progress-bar");
+ 
+    progressBars.forEach(progressBar => {
+      const value = progressBar.dataset.progress;
+      progressBar.style.opacity = 1;
+      progressBar.style.width = `${value}%`;
+    })
+  
+  // $(".progress-bar").animate({
+  //   width: "70%",
+  // }, 3000);
+
+  // smooth scroll
+  $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
@@ -40,4 +79,7 @@ $('a[href*="#"]')
       }
     }
   });
+})
+
+
 
