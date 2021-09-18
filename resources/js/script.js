@@ -1,8 +1,8 @@
 // preloader
-var load = document.getElementById('loading')
-function loadfun(){
-    load.style.display = 'none';
-}
+// var load = document.getElementById('loading')
+//  function loadfun(){
+//    load.style.display = 'none';
+// }
 
 $(document).ready(function(){
   // scroll reveal
