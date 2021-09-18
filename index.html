@@ -23,16 +23,16 @@
     <div class="landing py-5" id="landing">
         <div class="row">
             <div class="col-lg-5 pt-lg-3">
-                <img src="resources/img/photo1.png" alt="photo" class="animate__animated animate__fadeInLeft">               
+                <img src="resources/img/photo1.png" alt="photo" class="scroll-left">               
             </div>
-            <div class="col-lg-7 text-center mt-lg-5 animate__animated animate__fadeInRight">            
+            <div class="col-lg-7 text-center mt-lg-5 scroll-right">            
                 <h1>I'm a freelancer <br> and front-end web developer</h1>
                 <a href="#contact" class="main-btn">Hire Me</a>
             </div>
         </div>        
     </div>
     <!-- Nav bar -->
-    <div class="navbar navbar-light navbar-expand-lg sticky-top">
+    <div class="navbar navbar-light navbar-expand-lg sticky-top scroll-bottom">
         <div class="container px-3">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon">
@@ -55,7 +55,7 @@
                 <div class="col-12 text-center text-uppercase mt-5">                
                     <h1 class="text-dark pb-3">
                         <i class="fa fa-asterisk"></i>
-                        About Me
+                            About Me
                         <i class="fa fa-asterisk"></i>
                     </h1>
                     <div class="border-top border-dark w-50 mx-auto"></div>
@@ -65,16 +65,91 @@
         <!-- collection -->
         <div class="container">
             <div class="row pt-3 pb-lg-1 pb-sm-0 px-4">
-                <div class="col-lg-6 mb-3 my-lg-auto .wp-up">
+                <div class="col-lg-6 mb-3 my-lg-auto px-lg-5 scroll-left">
                     <h3 class="text-dark mb-3">I'm Aung Moe Oo</h3>
                     <p>
                         I'm a UX/UI Designer based in Myanmar. I have over 2+ years of experience and here to help you to achieve your goals and solve your tasks.
                     </p>
-                    <a href="#contact" class="btn btn-outline-dark btn-md">Contact Me</a>
+                    <a href="#contact" class="btn btn-outline-primary btn-md">Contact Me</a>
                 </div>
-                <div class="col-lg-6 text-center pb-sm-0 pt-sm-2">
-                    <img src="resources/img/working.svg" alt="working" class="w-75 h-75">
-                </div>
+                <div class="col-lg-6  scroll-right" id="skills">
+                    <h3 class="text-center">MY SKILLS</h3>
+                    <div class="row">   
+                        <div class="col-md-3">HTML</div>                     
+                        <div class="col-md-9 mt-1">
+                            <div class="progress">
+                                <!-- <div class="progress-bar progress-bar-striped" style="width:95%;">
+                                    95%
+                                </div> -->
+                                <div class="progress-bar progress-bar-striped" style="width:0%" data-progress="95">
+                                    95%
+                                </div>
+                            </div>
+                        </div>                        
+                    </div> <br>
+                    <div class="row">   
+                        <div class="col-md-3">CSS</div>                     
+                        <div class="col-md-9 mt-1">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped"  style="width:0%"   data-progress="90">
+                                    90%
+                                </div>
+                            </div>
+                        </div>                       
+                    </div> <br>
+                    <div class="row">                  
+                        <div class="col-md-3">Javascript</div>      
+                        <div class="col-md-9 mt-1">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" style="width:0%"    data-progress="80">
+                                    80%
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>  <br>
+                    <div class="row">      
+                        <div class="col-md-3">JQuery</div>                  
+                        <div class="col-md-9 mt-1">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" style="width:0%"   data-progress="80">
+                                    80%
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>  <br>
+                    <div class="row">         
+                        <div class="col-md-3">Node js</div>               
+                        <div class="col-md-9 mt-1">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" style="width:0%"  data-progress="80">
+                                    80%
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>  <br>
+                    <div class="row">          
+                        <div class="col-md-3">Express js</div>              
+                        <div class="col-md-9 mt-1">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" style="width:0%"  data-progress="80">
+                                    80%
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>  <br>
+                    <div class="row">          
+                        <div class="col-md-3">React</div>              
+                        <div class="col-md-9 mt-1 ">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" style="width:0%"  data-progress="75">
+                                    75%
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>  
             </div>
         </div>
     </div>
@@ -94,38 +169,36 @@
             </div>
         </div>
         <div class="container pb-4">
-            <div class="row pt-3 pb-5 text-center">
-                <div class="col-lg-4 p-4">
+            <div class="row pt-3 pb-lg-5 text-center">
+                <div class="col-lg-4 pt-2 scroll-left">
                     <h3 class="my-4">Web Design</h3>
                     <img src="resources/img/pj-1.png" alt="" class="w-100 rounded">
                     <p class="lead pt-3">
                         This is my project.
                     </p>
-                    <a href="https://aung-moe-oo.github.io/new-coffee/coffee-shop" target="_blank" class="btn btn-outline-dark btn-md">Explore</a>
+                    <a href="https://aung-moe-oo.github.io/coffee-shop" target="_blank" class="btn btn-outline-primary btn-md">Explore</a>
                 </div>
-                <div class="col-lg-4 p-4">
+                <div class="col-lg-4 pt-2 scroll-top">
                     <h3 class="my-4">Web Design</h3>
                     <img src="resources/img/pj-2.png" alt="" class="w-100 rounded">
                     <p class="lead pt-3">
                         This is my project.
                     </p>
-                    <a href="https://aung-moe-oo.github.io/construction" target="_blank" class="btn btn-outline-dark btn-md">Explore</a>
+                    <a href="https://aung-moe-oo.github.io/construction" target="_blank" class="btn btn-outline-primary btn-md">Explore</a>
                 </div>
-                <div class="col-lg-4 p-4">
+                <div class="col-lg-4 pt-2 scroll-right">
                     <h3 class="my-4">Design</h3>
                     <img src="resources/img/pj-2.png" alt="" class="w-100 rounded">
                     <p class="lead pt-3">
                         This is my project.
                     </p>
-                    <a href="#" class="btn btn-outline-dark btn-md">Explore</a>
+                    <a href="#" class="btn btn-outline-primary btn-md">Explore</a>
                 </div>            
             </div>
         </div>
     </div>    
-    <!-- fixed-background -->
-    <div class="fixed-background"></div>
     <!-- contact -->
-    <div class="contact" id="contact">
+    <div class="contact py-md-4" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center text-uppercase mt-5">                
@@ -139,7 +212,7 @@
             </div>
         </div>
         <!-- contact box -->
-        <div class="container pb-1">
+        <div class="container scroll-bottom pb-1">
             <div class="row pt-3 pb-5 px-lg-4">
                 <div class="col-12 my-lg-5 my-lg-auto text-center">
                     <form action="#" method="POST" class="contact-form">
@@ -152,15 +225,17 @@
                         <div>                     
                             <textarea  class="col-7 col-sm-8 mt-2" name="" id="" cols="40" rows="3" placeholder="Your Messages"></textarea>                        
                         </div>                    
-                        <button type="submit" class="btn btn-outline-dark btn-md mt-2">
+                        <button type="submit" class="btn btn-outline-primary btn-md mt-2 text-white">
                             Get In Touch
                         </button>                        
                     </form>
                 </div>
             </div> 
         </div>
-        <p class="text-center text-white pb-lg-2">Designed By Aung Moe Oo.</p>
+        <p class="text-center text-white pb-lg-0">Designed By Aung Moe Oo.</p>
     </div>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- waypoint -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <!-- jQuery -->
