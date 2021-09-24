@@ -11,10 +11,15 @@ body {
 }
 /* preloader */
 #loading {
+  display: flex;
+  justify-content: center;
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  background: #fff url("../img/preloader.gif") no-repeat center;
-  z-index: 9999;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  z-index: 3000;
+  filter: contrast(110%);
 }
 /*-- Landing --*/
 .landing {
@@ -108,9 +113,9 @@ h1 {
 .w-100 {
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
 }
-
-
-
+.progress-bar {
+  transition: all 0.5s ease-out;
+}
 /*-- Contact --*/
 .contact {
   /* background-image: linear-gradient(90deg, #1da1f2, #981ceb); */
