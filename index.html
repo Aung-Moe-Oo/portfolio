@@ -13,11 +13,17 @@
     <link rel="stylesheet" href="resources/css/style.css" />
     <link rel="stylesheet" href="resources/css/query.css" />
     <link rel="stylesheet" href="vendor/css/bootstrap.min.css" />
-    <!-- animate -->
+    <!-- owl -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="./vendor/css/owl.carousel.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="./vendor/css/owl.theme.default.min.css"
+  />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
@@ -32,13 +38,12 @@
     <!-- Landing -->
     <div class="landing py-5" id="landing">
       <div class="row">
-        <div class="col-lg-5 pt-lg-3">
+        <div data-aos="fade-right" data-aos-duration="2000" class="col-lg-5 pt-lg-3">
           <img src="resources/img/photo1.png" alt="photo" class="scroll-left" />
         </div>
-        <div class="col-lg-7 text-center mt-lg-5 scroll-right">
-          <h1>
-            I'm a freelancer <br />
-            and front-end web developer
+        <div data-aos="fade-left" data-aos-duration="2000" class="col-lg-7 text-center mt-lg-5">
+          <h1 class="mt-lg-5">
+            I'm a <span class="typing-text">Web Developer</span>
           </h1>
           <a href="#contact" class="main-btn">Hire Me</a>
         </div>
@@ -78,7 +83,7 @@
       <div class="container">
         <div class="row py-0 py-md-3 py-lg-5">
           <div class="col-12 text-center text-uppercase mt-5">
-            <h1 class="text-dark pb-3">
+            <h1 data-aos="zoom-in" data-aos-duration="2000" class="text-dark pb-3">
               <i class="fa fa-asterisk"></i>
               About Me
               <i class="fa fa-asterisk"></i>
@@ -90,7 +95,7 @@
       <!-- collection -->
       <div class="container">
         <div class="row pt-3 pb-lg-1 pb-sm-0 px-4">
-          <div class="col-lg-6 mb-3 my-lg-auto px-lg-5 scroll-left">
+          <div data-aos="fade-right" data-aos-duration="2000" class="col-lg-6 mb-3 my-lg-auto px-lg-5">
             <h3 class="text-dark mb-3">I'm Aung Moe Oo</h3>
             <p>
               I'm a UX/UI Designer based in Myanmar. I have over 2+ years of
@@ -101,15 +106,15 @@
               >Contact Me</a
             >
           </div>
-          <div class="col-lg-6 scroll-right" id="skills">
+          <div data-aos="fade-left" data-aos-duration="2000" class="col-lg-6" id="skills">
             <h3 class="text-center">MY SKILLS</h3>
             <div class="row">
               <div class="col-md-3">HTML</div>
               <div class="col-md-9 mt-1">
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
-                    style="width: 95%"
+                    class="progress-bar"
+                    style="width: 0%"
                     data-progress="95"
                   >
                     95%
@@ -123,8 +128,8 @@
               <div class="col-md-9 mt-1">
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
-                    style="width: 90%"
+                    class="progress-bar"
+                    style="width: 0%"
                     data-progress="90"
                   >
                     90%
@@ -138,8 +143,8 @@
               <div class="col-md-9 mt-1">
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
-                    style="width: 80%"
+                    class="progress-bar"
+                    style="width: 0%"
                     data-progress="80"
                   >
                     80%
@@ -153,8 +158,8 @@
               <div class="col-md-9 mt-1">
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
-                    style="width: 80%"
+                    class="progress-bar"
+                    style="width: 0%"
                     data-progress="80"
                   >
                     80%
@@ -168,8 +173,8 @@
               <div class="col-md-9 mt-1">
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
-                    style="width: 80%"
+                    class="progress-bar"
+                    style="width: 0%"
                     data-progress="80"
                   >
                     80%
@@ -183,8 +188,8 @@
               <div class="col-md-9 mt-1">
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
-                    style="width: 80%"
+                    class="progress-bar"
+                    style="width: 0%"
                     data-progress="80"
                   >
                     80%
@@ -198,8 +203,8 @@
               <div class="col-md-9 mt-1">
                 <div class="progress">
                   <div
-                    class="progress-bar progress-bar-striped"
-                    style="width: 75%"
+                    class="progress-bar"
+                    style="width: 0%"
                     data-progress="75"
                   >
                     75%
@@ -217,7 +222,7 @@
       <div class="container">
         <div class="row py-0 py-md-1 py-lg-5">
           <div class="col-12 text-center text-uppercase mt-5">
-            <h1 class="text-dark pb-3">
+            <h1 data-aos="zoom-in" data-aos-duration="2000" class="text-dark pb-3">
               <i class="fa fa-asterisk"></i>
               My Projects
               <i class="fa fa-asterisk"></i>
@@ -226,9 +231,9 @@
           </div>
         </div>
       </div>
-      <div class="container pb-4">
-        <div class="row pt-3 pb-lg-5 text-center">
-          <div class="col-lg-4 pt-2 scroll-left">
+      <div class="container pb-1">
+        <div class="row pt-3 pb-lg-5 text-center owl-carousel">
+          <div class="pt-2 item">
             <h3 class="my-4">Web Design</h3>
             <img src="resources/img/pj-1.png" alt="" class="w-100 rounded" />
             <p class="lead pt-3">This is my project.</p>
@@ -239,7 +244,7 @@
               >Explore</a
             >
           </div>
-          <div class="col-lg-4 pt-2 scroll-top">
+          <div class="pt-2 item">
             <h3 class="my-4">Web Design</h3>
             <img src="resources/img/pj-2.png" alt="" class="w-100 rounded" />
             <p class="lead pt-3">This is my project.</p>
@@ -250,11 +255,33 @@
               >Explore</a
             >
           </div>
-          <div class="col-lg-4 pt-2 scroll-right">
+          <div class="pt-2 item">
             <h3 class="my-4">Design</h3>
             <img src="resources/img/pj-2.png" alt="" class="w-100 rounded" />
             <p class="lead pt-3">This is my project.</p>
             <a href="#" class="btn btn-outline-primary btn-md">Explore</a>
+          </div>
+          <div class="pt-2 item">
+            <h3 class="my-4">Web Design</h3>
+            <img src="resources/img/pj-1.png" alt="" class="w-100 rounded" />
+            <p class="lead pt-3">This is my project.</p>
+            <a
+              href="https://aung-moe-oo.github.io/coffee-shop"
+              target="_blank"
+              class="btn btn-outline-primary btn-md"
+              >Explore</a
+            >
+          </div>
+          <div class="pt-2 item">
+            <h3 class="my-4">Web Design</h3>
+            <img src="resources/img/pj-2.png" alt="" class="w-100 rounded" />
+            <p class="lead pt-3">This is my project.</p>
+            <a
+              href="https://aung-moe-oo.github.io/construction"
+              target="_blank"
+              class="btn btn-outline-primary btn-md"
+              >Explore</a
+            >
           </div>
         </div>
       </div>
@@ -264,7 +291,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center text-uppercase mt-5">
-            <h1 class="text-white pb-3">
+            <h1 data-aos="zoom-in" data-aos-duration="2000" class="text-white pb-3">
               <i class="fa fa-asterisk"></i>
               Contact Me
               <i class="fa fa-asterisk"></i>
@@ -274,7 +301,7 @@
         </div>
       </div>
       <!-- contact box -->
-      <div class="container scroll-bottom pb-1">
+      <div data-aos="fade-up" data-aos-duration="2000" class="container pb-1">
         <div class="row pt-3 pb-5 px-lg-4">
           <div class="col-12 my-lg-5 my-lg-auto text-center">
             <form action="#" method="POST" class="contact-form">
@@ -320,12 +347,18 @@
       </div>
       <p class="text-center text-white pb-lg-0">Designed By Aung Moe Oo.</p>
     </div>
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- waypoint -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <!-- jQuery -->
     <script src="vendor/js/jQuery.js"></script>
+    <!-- typed js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <!-- waypoint -->
+    <script src="./vendor/js/waypoint.js"></script>    
+    <!-- owl carousel -->
+    <script src="./vendor/js/owl.carousel.min.js"></script>  
+    <!-- aos js -->
+    <script src="./vendor/js/aos.js"></script>
+    <!-- tilt js -->
+    <script src="vendor/js/tilt.js"></script>
     <!-- Popper js -->
     <script src="vendor/js/popper.min.js"></script>
     <!-- bootstrap js -->
