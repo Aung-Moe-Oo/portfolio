@@ -13,13 +13,13 @@ body {
 #loading {
   display: flex;
   justify-content: center;
+  position: absolute;
   height: 100%;
   width: 100%;
   align-items: center;
   position: fixed;
   background-color: white;
-  z-index: 3000;
-  filter: contrast(110%);
+  z-index: 9999;
 }
 /*-- Landing --*/
 .landing {
@@ -114,7 +114,20 @@ h1 {
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 .progress-bar {
-  transition: all 0.5s ease-out;
+  background-image: linear-gradient(90deg, #00cec9, #6c5ce7);
+  transition: all 1s ease-out;
+}
+/* carousel */
+.owl-prev ,.owl-next{
+  box-shadow: none;
+  margin: 1rem;
+  width: 3rem;
+}
+.owl-prev span, .owl-next span{
+  font-size: 2.5rem;  
+}
+.owl-prev span:checked, .owl-next span:checked{
+  border: none;
 }
 /*-- Contact --*/
 .contact {
