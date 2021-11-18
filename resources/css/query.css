@@ -20,6 +20,9 @@
     letter-spacing: 0.1rem;
     padding: 1.8rem 1.5rem;
   }
+  .owl-carousel {
+    margin-bottom: 1rem;
+  }
 }
 
 /* Devices under 768px (md) */
@@ -67,14 +70,19 @@
   h3 {
     font-size: 1.2rem !important;
   }
-  .owl-item{
-    margin-left:  0.2rem;
+  .owl-item {
+    margin: 0 5px;
+  }
+  .owl-carousel {
+    width: 100vw;
+    max-height: 70vh;
+    margin-bottom: 0;
   }
   input,
   textarea {
     padding: 0rem;
   }
-  ::placeholder{
+  ::placeholder {
     font-size: 0.8rem;
   }
 }

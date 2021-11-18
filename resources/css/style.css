@@ -11,11 +11,11 @@ body {
 }
 /* preloader */
 #loading {
-  display: flex;
-  justify-content: center;
-  position: absolute;
   height: 100%;
   width: 100%;
+
+  display: flex;
+  justify-content: center;
   align-items: center;
   position: fixed;
   background-color: white;
@@ -25,6 +25,7 @@ body {
 .landing {
   text-align: center;
   text-transform: uppercase;
+  overflow: hidden;
   background-image: linear-gradient(90deg, #00cec9, #6c5ce7);
   /* background-image: linear-gradient(90deg, #e74c3c, #f1c40f); */
 }
@@ -110,24 +111,32 @@ h1 {
 .h3 {
   font-weight: 300;
 }
-.w-100 {
-  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
-}
+
 .progress-bar {
   background-image: linear-gradient(90deg, #00cec9, #6c5ce7);
   transition: all 1s ease-out;
 }
 /* carousel */
-.owl-prev ,.owl-next{
+#project img {
+  width: 300px;
+  height: 150px;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+.owl-prev,
+.owl-next {
   box-shadow: none;
-  margin: 1rem;
+  margin: 0 1rem;
   width: 3rem;
+  border: none !important;
 }
-.owl-prev span, .owl-next span{
-  font-size: 2.5rem;  
+.owl-prev span,
+.owl-next span {
+  font-size: 2.5rem;
 }
-.owl-prev span:checked, .owl-next span:checked{
-  border: none;
+.owl-prev span:checked,
+.owl-next span:checked {
+  background-color: transparent;
+  outline: none;
 }
 /*-- Contact --*/
 .contact {
