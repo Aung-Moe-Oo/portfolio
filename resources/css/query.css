@@ -71,11 +71,11 @@
     font-size: 1.2rem !important;
   }
   .owl-item {
-    margin: 0 5px;
+    margin-left: 2px;
   }
   .owl-carousel {
     width: 100vw;
-    max-height: 70vh;
+    max-height: 80vh;
     margin-bottom: 0;
   }
   .form-control {
