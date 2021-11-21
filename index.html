@@ -248,7 +248,7 @@
             <h3 class="my-4">Coffee Shop</h3>
             <img src="resources/img/pj-1.png" alt="" class="w-100 rounded" />
             <p class="lead pt-3">
-              This is a website with html, css and javascript.
+              This is a website with html,css and javascript.
             </p>
             <a
               href="https://aung-moe-oo.github.io/coffee-shop"
@@ -261,7 +261,7 @@
             <h3 class="my-4">Construction</h3>
             <img src="resources/img/pj-2.png" alt="" class="w-100 rounded" />
             <p class="lead pt-3">
-              This is a website with html, css and javascript.
+              This is a website with html,css and javascript.
             </p>
             <a
               href="https://aung-moe-oo.github.io/construction"
@@ -274,7 +274,7 @@
             <h3 class="my-4">Digital Agency</h3>
             <img src="resources/img/pj-3.png" alt="" class="w-100 rounded" />
             <p class="lead pt-3">
-              This is a website with reactjs and nextjs.
+              This is a website with reactjs,tailwind css and nextjs.
             </p>
             <a
               href="https://nextjs-pj-aung-moe-oo.vercel.app/"
@@ -287,7 +287,7 @@
             <h3 class="my-4">Creative Agency</h3>
             <img src="resources/img/solo.png" alt="" class="w-100 rounded" />
             <p class="lead pt-3">
-              This is a website with html, css,javascript and bootstrap.
+              This is a website with html,css,javascript and bootstrap.
             </p>
             <a
               href="https://aung-moe-oo.github.io/Solo-pj/"
@@ -297,23 +297,10 @@
             >
           </div>
           <div class="pt-2 item">
-            <h3 class="my-4">News Blog</h3>
-            <img src="resources/img/blog.png" alt="" class="w-100 rounded" />
-            <p class="lead pt-3">
-              This is a website with react,tailwind css and nextjs.
-            </p>
-            <a
-              href="https://news-blog-psi.vercel.app/"
-              target="_blank"
-              class="btn btn-outline-primary btn-md"
-              >Explore</a
-            >
-          </div>
-          <div class="pt-2 item">
             <h3 class="my-4">Programming Course</h3>
             <img src="resources/img/course.png" alt="" class="w-100 rounded" />
             <p class="lead pt-3">
-              This is a website with html, css,javascript and bootstrap.
+              This is a website with html,css,javascript and bootstrap.
             </p>
             <a
               href="https://aung-moe-oo.github.io/course/"
@@ -347,40 +334,35 @@
       <div data-aos="fade-up" data-aos-duration="2000" class="container pb-1">
         <div class="row pt-3 pb-5 px-lg-4">
           <div class="col-12 my-lg-5 my-lg-auto text-center">
-            <form action="#" method="POST" class="contact-form">
-              <div>
-                <input
-                  class="col-7 col-sm-8 mt-2"
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Your Name"
-                  required
-                />
-              </div>
-              <div>
-                <input
-                  class="col-7 col-sm-8 mt-2"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Your Email Address"
-                  required
-                />
-              </div>
-              <div>
-                <textarea
-                  class="col-7 col-sm-8 mt-2"
-                  name=""
-                  id=""
-                  cols="40"
-                  rows="3"
-                  placeholder="Your Messages"
-                ></textarea>
-              </div>
+            <form method="post" action="mail.php" class="contact-form">
+              <input
+                class="mt-2 mx-auto form-control"
+                type="text"
+                id="Name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                class="mt-2 mx-auto mt-lg-3 form-control"
+                type="email"
+                id="Email"
+                name="email"
+                placeholder="Your Email Address"
+                required
+              />
+              <textarea
+                class="mt-2 mx-auto mt-lg-3 form-control"
+                id="Message"
+                name="message"
+                cols="40"
+                rows="3"
+                placeholder="Your Messages"
+              ></textarea>
               <button
                 type="submit"
-                class="btn btn-outline-primary btn-md mt-2 text-white"
+                value="Submit"
+                class="btn btn-outline-primary btn-md mt-2 mt-lg-3 text-white"
               >
                 Get In Touch
               </button>
