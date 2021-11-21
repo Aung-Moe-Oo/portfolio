@@ -78,9 +78,8 @@
     max-height: 70vh;
     margin-bottom: 0;
   }
-  input,
-  textarea {
-    padding: 0rem;
+  .form-control {
+    padding: 1rem 1rem !important;
   }
   ::placeholder {
     font-size: 0.8rem;

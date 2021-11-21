@@ -13,7 +13,7 @@ body {
 #loading {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,9 +146,11 @@ h1 {
 }
 input,
 textarea {
-  padding: 1rem;
-  border-radius: 5px;
+  max-width: 700px;
   box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+.form-control {
+  padding: 1.5rem 1rem !important;
 }
 button {
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
