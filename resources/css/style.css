@@ -99,6 +99,7 @@ h1 {
   margin-right: 0.8rem;
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.5s;
+  border-width: unset;
 }
 .nav-link:hover {
   border-bottom: 2px solid #fff;
