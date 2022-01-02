@@ -117,8 +117,22 @@ h1 {
   background-image: linear-gradient(90deg, #00cec9, #6c5ce7);
   transition: all 1s ease-out;
 }
+/* project container */
+.pj-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pj-container .item {
+  flex: 50%;
+  padding: 1rem;
+}
+.pj-container .item img {
+  width: 300px;
+  height: 200px;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+}
 /* carousel */
-#project img {
+/* #project img {
   width: 300px;
   height: 150px;
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
@@ -138,7 +152,7 @@ h1 {
 .owl-next span:checked {
   background-color: transparent;
   outline: none;
-}
+} */
 /*-- Contact --*/
 .contact {
   /* background-image: linear-gradient(90deg, #1da1f2, #981ceb); */

@@ -20,9 +20,9 @@
     letter-spacing: 0.1rem;
     padding: 1.8rem 1.5rem;
   }
-  .owl-carousel {
+  /* .owl-carousel {
     margin-bottom: 1rem;
-  }
+  } */
 }
 
 /* Devices under 768px (md) */
@@ -47,6 +47,10 @@
   h3 {
     font-size: 1.4rem !important;
   }
+  .pj-container .item {
+    flex: 100%;
+    padding: 1rem;
+  }
   input,
   textarea {
     padding: 0.6rem;
@@ -70,14 +74,14 @@
   h3 {
     font-size: 1.2rem !important;
   }
-  .owl-item {
+  /* .owl-item {
     margin-left: 2px;
   }
   .owl-carousel {
     width: 100vw;
     max-height: 80vh;
     margin-bottom: 0;
-  }
+  } */
   .form-control {
     padding: 1rem 1rem !important;
   }
