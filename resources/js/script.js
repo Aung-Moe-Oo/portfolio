@@ -32,7 +32,7 @@ AOS.init({
 $(document).ready(function () {
   // typed js
   var type = new Typed(".typing-text", {
-    strings: ["", "React Developer", "Web designer", "Freelancer"],
+    strings: ["", "React Developer", "Web designer"],
     typeSpeed: 100,
     loop: true,
   });
